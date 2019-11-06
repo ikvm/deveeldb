@@ -41,17 +41,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Antlr4" Version="4.6.5">
+    <PackageReference Include="Antlr4" Version="4.6.6">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Antlr4.Runtime" Version="4.6.5" />
-    <PackageReference Include="dmath.core" Version="1.7.0" />
-    <PackageReference Include="docfx.console" Version="2.40.0">
+    <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+    <PackageReference Include="docfx.console" Version="2.47.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="DryIoc.dll" Version="3.0.2" />
+    <PackageReference Include="DryIoc.dll" Version="4.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Deveel.Math.Core\Deveel.Math.Core.csproj" />
   </ItemGroup>
 
 </Project>

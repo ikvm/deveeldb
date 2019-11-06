@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deveeldb", "src\deveeldb\deveeldb.csproj", "{124BB02C-8B4B-4227-8162-670FBA4E90E6}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8D4C059-BE41-4957-8662-97FBBFAD6D47}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deveeldb.tablesys", "src\deveeldb.tablesys\deveeldb.tablesys.csproj", "{D60FE0B2-6053-4EEA-BEAF-4186428526B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{58146628-B604-479F-998F-A4CA47B914E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deveel.Math.Core", "src\Deveel.Math.Core\Deveel.Math.Core.csproj", "{66C05D66-274A-4A45-B48E-C602525DCCE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,9 +89,25 @@ Global
 		{D60FE0B2-6053-4EEA-BEAF-4186428526B6}.Release|x64.Build.0 = Release|Any CPU
 		{D60FE0B2-6053-4EEA-BEAF-4186428526B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{D60FE0B2-6053-4EEA-BEAF-4186428526B6}.Release|x86.Build.0 = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|x64.Build.0 = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Debug|x86.Build.0 = Debug|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|x64.ActiveCfg = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|x64.Build.0 = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{66C05D66-274A-4A45-B48E-C602525DCCE5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AABD3C9-AFB7-47F1-8180-0D30A129AE88} = {58146628-B604-479F-998F-A4CA47B914E8}
+		{4D48E514-F196-413D-B5DF-1661C8AAC647} = {58146628-B604-479F-998F-A4CA47B914E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {846F1253-5473-4819-954C-13A53A10DE1E}
