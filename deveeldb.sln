@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deveeldb.tablesys", "src\de
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{58146628-B604-479F-998F-A4CA47B914E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deveel.Math.Core", "src\Deveel.Math.Core\Deveel.Math.Core.csproj", "{66C05D66-274A-4A45-B48E-C602525DCCE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dmath.core", "src\dmath.core\dmath.core.csproj", "{66C05D66-274A-4A45-B48E-C602525DCCE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

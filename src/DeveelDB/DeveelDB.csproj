@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Deveel.Math.Core\Deveel.Math.Core.csproj" />
+    <ProjectReference Include="..\Deveel.Math.Core\dmath.core.csproj" />
   </ItemGroup>
 
 </Project>
